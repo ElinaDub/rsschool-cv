@@ -28,6 +28,7 @@ I'm 20 years old and I’m a third-year student at Belarusian State University. 
 ## Code example:
 
 __Rock Paper Scissors KATA from CODEWARS:__
+*Let's play! You have to return which player won! In case of a draw return Draw!*
 
 ```javascript
 const rps = (p1, p2) => {
