@@ -24,3 +24,17 @@ I'm 20 years old and I’m a third-year student at Belarusian State University. 
 - Adobe Photoshop, Illustrator
 - VS, Vs Code, IntelliJ IDEA, WebStorm
 - Git, GitHub
+
+## Code example:
+
+__Rock Paper Scissors KATA from CODEWARS:__
+
+```javascript
+const rps = (p1, p2) => {
+  if (p1 == p2) { 
+    return "Draw!";
+    } else if ( (p1 == "rock" && p2 == "scissors") || (p1 == "scissors" && p2 == "paper" ) || (p1 == "paper" && p2 == "rock") ) {
+    return "Player 1 won!";
+    } else { return "Player 2 won!";}
+};
+```
