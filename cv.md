@@ -2,16 +2,14 @@
 
 # Elina Dubovets
 
-****
-
 ## Contacts
 
- __phone :__ +375 (29) 6070302
- __email :__ elinadub404@gmail.com  
- __telegram :__ [@elael_d](https://web.telegram.org/k/#630350677)
- __github :__ [ElinaDub](https://github.com/ElinaDub)
+__phone :__ +375 (29) 6070302 <br>
+__email :__ elinadub404@gmail.com  <br>
+__telegram :__ [@elael_d](https://web.telegram.org/k/#630350677) <br>
+__github :__ [ElinaDub](https://github.com/ElinaDub) <br>
 
- __location__ : Minsk, Belarus
+__location__ : Minsk, Belarus
 
 ## About Me:
 
@@ -27,8 +25,8 @@ I'm 20 years old and I’m a third-year student at Belarusian State University. 
 
 ## Code example:
 
-__Rock Paper Scissors KATA from CODEWARS:__
-*Let's play! You have to return which player won! In case of a draw return Draw!*
+__Rock Paper Scissors KATA from CODEWARS:__ <br>
+_Let's play! You have to return which player won! In case of a draw return Draw!_
 
 ```javascript
 const rps = (p1, p2) => {
