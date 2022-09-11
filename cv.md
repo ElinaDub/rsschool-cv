@@ -39,3 +39,13 @@ const rps = (p1, p2) => {
     } else { return "Player 2 won!";}
 };
 ```
+
+### Work experience
+
+Web designer for individuals. Not by specialty worked as an administrator and barista. Ready as soon as possible to master the necessary skills and start independent work. 
+
+## Language skills:
+
+- English \- B1
+- Russian \- Native
+- Belarusian \- B1
