@@ -12,3 +12,15 @@
  __github :__ [ElinaDub](https://github.com/ElinaDub)
 
  __location__ : Minsk, Belarus
+
+## About Me:
+
+I'm 20 years old and I’m a third-year student at Belarusian State University. I'm extremely motivated to constantly develop my skills and grow professionally.
+
+## Skills and Proficiency:
+
+- HTML / CSS
+- Figma
+- Adobe Photoshop, Illustrator
+- VS, Vs Code, IntelliJ IDEA, WebStorm
+- Git, GitHub
