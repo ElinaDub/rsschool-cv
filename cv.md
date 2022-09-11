@@ -40,7 +40,7 @@ const rps = (p1, p2) => {
 };
 ```
 
-### Work experience
+## Work experience
 
 Web designer for individuals. Not by specialty worked as an administrator and barista. Ready as soon as possible to master the necessary skills and start independent work. 
 
