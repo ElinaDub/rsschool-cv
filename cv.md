@@ -49,3 +49,7 @@ Web designer for individuals. Not by specialty worked as an administrator and ba
 - English \- B1
 - Russian \- Native
 - Belarusian \- B1
+
+## Personal qualities
+
+Responsible, hard work, honest, diligent and organized, punctual, flexible, team player, quickly learn.
