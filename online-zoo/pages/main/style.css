@@ -4,51 +4,20 @@
     padding: 0;
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 120%;
-    /* or 58px */
-
-    color: #333B41;
-    ;
-}
-
-p {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
-h3 {
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
 #section1_ft {
     margin-bottom: 12px;
 
     background-image: url(../../assets/images/Giant_Panda.jpg);
+    min-width: 1600px;
     background-size: 100%;
-    min-height: 750px;
+    min-height: 780px;
 
 }
 
 #section1_ft>div {
     display: flex;
-    margin-left: 880px;
-    padding-top: 12px;
+    margin-left: 807px;
+    padding-top: 92px;
 }
 
 
@@ -60,6 +29,10 @@ h3 {
 }
 
 button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
     width: 298px;
     height: 54px;
     border-radius: 25px;
@@ -85,17 +58,6 @@ button:hover {
 
 .feedback_button:hover {
     background: #E47209;
-}
-
-#section1_ft h1 {
-    font-family: 'Roboto' sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 106.496px;
-    line-height: 75%;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    text-align: center;
 }
 
 .text_color {
@@ -208,24 +170,6 @@ button:hover {
     padding: 0 0 14px 16px;
 }
 
-.smallParagraph {
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.btn {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
 #section_3_animals_card button {
     margin-bottom: 100px;
 }
@@ -275,23 +219,6 @@ button:hover {
     margin-bottom: 40px;
 }
 
-.bode {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.subtitle {
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 
 #section_4_pick-and-feed>div>p {
     align-self: flex-start;
@@ -345,7 +272,7 @@ button:hover {
     height: 391px;
     width: 270px;
     background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
-        linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 }
 
 .testimonial {
