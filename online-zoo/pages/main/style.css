@@ -4,9 +4,81 @@
     padding: 0;
 }
 
+header{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 14px 220px;
+
+}
+
+#logo{
+    border: #FFFFFF 1px solid;
+    width: 72.5px;
+    height: 44.9px;
+    margin-right:63px;
+    padding: 3.55px 4.75px;
+    cursor: pointer;
+}
+#logo p{
+    margin-bottom: -25px;
+    text-align: center;
+    
+}
+#logo img{
+    margin-left: 9px;
+    cursor: pointer;
+}
+nav {
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color:  #FFFFFF;
+    text-decoration: none;
+    margin-right: 380px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    cursor: pointer;
+    margin: 0 58px 0 0;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+nav > a {
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+header a:visited {
+    cursor: pointer;
+}
+
+nav a.active {
+    background: linear-gradient(135deg, #F9804B, #FE9013);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
 #section1_ft {
     margin-bottom: 12px;
-
     background-image: url(../../assets/images/Giant_Panda.jpg);
     min-width: 1600px;
     background-size: 100%;
