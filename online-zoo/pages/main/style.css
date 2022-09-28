@@ -60,7 +60,7 @@ header a {
 }
 
 header a:hover {
-    color: #FFFFFF;
+    color: #4B9200;
     text-decoration: none;
 }
 
@@ -119,6 +119,11 @@ button {
 
 button:hover {
     background: #E47209;
+    cursor: pointer;
+}
+
+button:active {
+    background: #4B9200;
 }
 
 .feedback_button {
@@ -133,6 +138,11 @@ button:hover {
 
 .feedback_button:hover {
     background: #E47209;
+    cursor: pointer;
+}
+
+.feedback_button:active {
+    background: #4B9200;
 }
 
 .text_color {
@@ -198,6 +208,58 @@ button:hover {
     height: 360px;
 }
 
+#palm {
+    position: absolute;
+    background: url(../../assets/images/palm_foto.png) no-repeat;
+    width: 292px;
+    height: 460px;
+    top: 2253px;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#strel {
+    position: absolute;
+    background: url(../../assets/images/strelitzia_1.png) no-repeat;
+    width: 368px;
+    height: 275px;
+    top: 2438px;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#arrows {
+    position: relative;
+}
+
+.arrow_left,
+.arrow_right {
+    width: 62px;
+    height: 62px;
+    background-color: #F9804B;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 410px;
+}
+
+.arrow_left img,
+.arrow_right img {
+    width: 16px !important;
+    height: 8px !important;
+}
+
+.arrow_right {
+    left: 600px;
+}
+
+.arrow_left {
+    right: 600px;
+    transform: rotate(180deg);
+}
+
 #section_3_animals_card_block {
     display: grid;
     grid-template-areas:
@@ -235,6 +297,8 @@ button:hover {
 
 .foto_card {
     border: 1px solid #FE9013;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .foto_card .btn {
@@ -247,6 +311,36 @@ button:hover {
 
 #section_3_animals_card button {
     margin-bottom: 100px;
+}
+
+.img_link {
+    background: #000;
+    overflow: hidden;
+}
+
+.img_link img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.foto_card:hover .img_link img {
+    cursor: pointer;
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+
+.text_link p {
+    color: #000;
+    transition: transform .3s;
+}
+
+.foto_card:hover .text_link p {
+    cursor: pointer;
+    transform: translateY(-50px);
+    color: #FFFFFF;
 }
 
 #section_4_pick-and-feed {
@@ -280,6 +374,7 @@ button:hover {
 }
 
 #section_4_pick-and-feed .smallParagraph {
+    padding-right: 20px;
     margin: 10px 0 60px;
     font-size: 16px;
     font-weight: 400;
@@ -295,7 +390,14 @@ button:hover {
 }
 
 .text_underline {
+    color: #333B41;
     text-decoration: underline;
+    text-decoration-color: #FE9013;
+}
+.text_underline:hover {
+    color: #4B9200;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #section_4_pick-and-feed>div>p {
@@ -332,13 +434,23 @@ button:hover {
     padding: 140px 220px 204px 220px;
 }
 
+#leav {
+    position: absolute;
+    background: url(../../assets/images/leav_foto.png) no-repeat;
+    width: 278px;
+    height: 280px;
+    top: 4300px;
+    bottom: 0;
+    right: -30px;
+    z-index: 0;
+}
+
 #section_5_st h3 {
     margin-bottom: 47px;
 }
 
 #testimonials {
     display: inline-flex;
-
 }
 
 .border {
@@ -361,6 +473,19 @@ button:hover {
     padding: 15px 15px 19px 16px;
 }
 
+.testimonial>div {
+    margin-left: 43px;
+}
+
+.testimonial>div p:nth-child(3) {
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+
+.testimonial>p {
+    color: #767474;
+}
+
 .testimonial_1 {
     margin-right: 30px;
 }
@@ -378,4 +503,5 @@ button:hover {
 
 #section_5_st .feedback_button {
     align-self: flex-start;
+    margin-top: 60px;
 }
